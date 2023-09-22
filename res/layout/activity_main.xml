@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/Icon"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:contentDescription="a icon image"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/bgText"
+        android:textSize="20sp"
+        android:hint="@string/username"
+        android:fontFamily="sans-serif-light"
+        android:padding="16dp"
+        android:inputType="text"
+        android:textColorHint="@color/innerText"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/bgText"
+        android:textSize="20sp"
+        android:hint="@string/password"
+        android:fontFamily="sans-serif-light"
+        android:padding="16dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/innerText"
+        />
+
+    <RadioButton
+        android:id="@+id/Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Remember-me"
+        android:textSize="20sp"
+        android:textColor="@color/innerText"
+        android:buttonTint="@color/innerText" />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgButton"
+        android:text="Sign in"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/forgot"
+        android:textColor="@color/innerText"
+        android:gravity="center"
+        android:textSize="16sp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Don't have an account?"
+            android:textColor="@color/innerText"
+            android:gravity="left"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bgSign"
+            android:text="Sign Up"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:layout_weight="0"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

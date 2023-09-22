@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LinearLayoutExample</string>
+    <string name="icon_description">Uma descrição do ícone</string>
+    <string name="username">Nome do usuário</string>
+    <string name="password">Senha</string>
+    <string name="forgot">Esqueceu sua senha?</string>
+
+</resources>
